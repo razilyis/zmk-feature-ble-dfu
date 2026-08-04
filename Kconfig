@@ -1,0 +1,10 @@
+# Copyright (c) 2026 zmk-feature-ble-dfu contributors
+# SPDX-License-Identifier: MIT
+
+menuconfig ZMK_BLE_DFU
+    bool "ZMK BLE DFU bootloader behavior"
+    depends on REBOOT
+    help
+      Enable the &ble_dfu behavior. Pressing the behavior reboots a compatible
+      Adafruit nRF52 Bootloader into its Bluetooth OTA DFU mode.
+

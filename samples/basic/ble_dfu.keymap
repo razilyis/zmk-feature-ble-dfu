@@ -1,0 +1,9 @@
+/*
+ * Copy the relevant parts into your keyboard keymap.
+ * Confirm USB UF2 recovery before pressing &ble_dfu.
+ */
+
+#include <behaviors/ble_dfu.dtsi>
+
+/* Example binding: &ble_dfu */
+
