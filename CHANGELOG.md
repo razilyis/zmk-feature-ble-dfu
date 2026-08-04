@@ -7,3 +7,4 @@
 - Document a standard macro wrapper for Keymap Editor selection.
 - Export the module `include/` directory to Zephyr builds.
 - Confirm ZMK v0.3.0 split builds and Keymap Editor wrapper display.
+- Confirm `AdaDFU` advertisement, Nordic Legacy DFU service discovery, and reset recovery on AroundFortyDB hardware.

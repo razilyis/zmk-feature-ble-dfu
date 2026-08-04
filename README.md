@@ -21,7 +21,9 @@ Adafruit nRF52 BootloaderをBluetooth OTA DFU modeで起動するためのZMK fe
 
 - AroundFortyDBのZMK v0.3.0構成で右central、左peripheral、settings resetをbuild済み
 - Keymap Editorでwrapper `&ble_dfu_ota`がCustom macro「BLE_DFU_OTA」として表示されることを確認済み
-- 実機でのOTA Bootloader起動とBluetooth advertisementは未確認
+- AroundFortyDB実機で`&ble_dfu_ota`押下後に通常接続が切断され、`AdaDFU`としてadvertiseすることを確認済み
+- Nordic Legacy DFU service UUID `00001530-1212-efde-1523-785feabcd123`をWindowsから検出済み
+- reset 1回で通常Firmwareへ復帰することを確認済み。DFU package転送は未確認
 
 ## 対応範囲
 
