@@ -17,6 +17,12 @@ Adafruit nRF52 BootloaderをBluetooth OTA DFU modeで起動するためのZMK fe
 
 このmoduleはFirmwareを書き換えません。再起動後のDFU転送と書き換えはBootloaderおよびDFU clientが担当します。
 
+## 確認状況
+
+- AroundFortyDBのZMK v0.3.0構成で右central、左peripheral、settings resetをbuild済み
+- Keymap Editorでwrapper `&ble_dfu_ota`がCustom macro「BLE_DFU_OTA」として表示されることを確認済み
+- 実機でのOTA Bootloader起動とBluetooth advertisementは未確認
+
 ## 対応範囲
 
 - 初期検証対象: ZMK v0.3.0
@@ -80,4 +86,3 @@ Keymap Editorでは`&ble_dfu_ota`をcustom macroとして選択します。Firmw
 ## ライセンス
 
 MIT Licenseです。
-
