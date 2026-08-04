@@ -3,6 +3,6 @@
 
 if(CONFIG_ZMK_BLE_DFU)
   zephyr_library()
+  zephyr_include_directories(include)
   zephyr_library_sources(src/behavior_ble_dfu.c)
 endif()
-
